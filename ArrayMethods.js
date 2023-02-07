@@ -2,14 +2,14 @@ const ages = [72, 33, 18, 20];
 
 // Concat() method
 console.log("1. Concat");
-arr1 = ["abc", "def", "ghi"];
-arr2 = ["jkl", "mno", "pqr"];
-arr3 = arr1.concat(arr2);
+let arr1 = ["abc", "def", "ghi"];
+let arr2 = ["jkl", "mno", "pqr"];
+let arr3 = arr1.concat(arr2);
 console.log(arr3);
-arr4 = ["stu", 1,2];
+let arr4 = ["stu", 1,2];
 arr3 = arr1.concat(arr2, arr4);
 console.log(arr3);
-arr5 = [["vwx", 3], 4];
+let arr5 = [["vwx", 3], 4];
 arr3 = arr3.concat(arr5);
 console.log(arr3);
 
@@ -23,7 +23,7 @@ console.log(user.name);
 
 // CopyWithin() method
 console.log("3. CopyWithin");
-student = ['a','b','c','d','e','f'];
+let student = ['a','b','c','d','e','f'];
 console.log(student.copyWithin(2,3))
 console.log(student)
 console.log(student.copyWithin(0,2))
