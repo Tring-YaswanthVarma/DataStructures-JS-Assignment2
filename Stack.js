@@ -34,7 +34,7 @@ class Stack {
     }
 }
 
-s = new Stack();
+let s = new Stack();
 s.push(1)
 s.push(2)
 s.push(3)
