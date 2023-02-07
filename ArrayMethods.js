@@ -39,10 +39,10 @@ for (let x of stu){
 // every method
 console.log("5. Every");
 names = ["Roronoa Zoro", "Goku", "Naruto", "Levi Ackerman", "Eren Yaeger", "Monkey D. Luffy"];
-function checkNames(name){
+function checkNames1(name){
     return name.startsWith('A');
 }
-console.log(names.every(checkNames));
+console.log(names.every(checkNames1));
 
 // Fill method
 console.log("6. fill");
@@ -52,24 +52,24 @@ console.log(names);
 // Filter method
 console.log("7. Filter");
 names = ["Roronoa Zoro", "Goku", "Naruto", "Levi Ackerman", "Eren Yaeger", "Monkey D. Luffy"];
-function checkNames(name){
+function checkNames2(name){
     return name.startsWith('A');
 }
-console.log(names.filter(checkNames));
+console.log(names.filter(checkNames2));
 
 // Find method
 console.log("8. find");
-function checkNames(name) {
+function checkNames3(name) {
     return name.startsWith('R')
 }
-console.log(names.find(checkNames));
+console.log(names.find(checkNames3));
 
 // FindIndex method
 console.log("9. FindIndex");
-function checkNames(name) {
+function checkNames4(name) {
     return name.startsWith('E');
 }
-console.log(names.findIndex(checkNames));
+console.log(names.findIndex(checkNames4));
 
 // ForEach
 console.log("10. ForEach");
