@@ -18,7 +18,7 @@ console.log("2. Constructor");
 function User() {
     this.name = 'Yaswanth';
 }
-var user = new User()
+let user = new User()
 console.log(user.name);
 
 // CopyWithin() method
