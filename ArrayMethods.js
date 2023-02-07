@@ -31,14 +31,14 @@ console.log(student.copyWithin(0,2))
 // entries method
 console.log("4. Entries");
 student = ['a','b','c','d','e','f'];
-stu = student.entries();
+let stu = student.entries();
 for (let x of stu){
     console.log(x)
 }
 
 // every method
 console.log("5. Every");
-names = ["Roronoa Zoro", "Goku", "Naruto", "Levi Ackerman", "Eren Yaeger", "Monkey D. Luffy"];
+let names = ["Roronoa Zoro", "Goku", "Naruto", "Levi Ackerman", "Eren Yaeger", "Monkey D. Luffy"];
 function checkNames1(name){
     return name.startsWith('A');
 }
